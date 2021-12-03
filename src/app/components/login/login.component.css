@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90vh;
+    width: 90vw;
+    border-radius: 10px;
+}
+
+.welcome{
+    width: 60%;
+}
+
+.form{
+    width: 40%;
+
+}
+
+.form form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+    background-color: #FFF;
+    padding: 40px;
+}
+
+.text-login{
+    text-align: center;
+}
+.color-primary{
+    color: #e44bf3;
+    font-weight: bold;
+}
+
+.input-form{
+    border: 0px;
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #0058f1, #be55d8);
+    outline: none;
+    padding: 13px 0px;
+   
+}
+
+
+.input-form::placeholder{
+    letter-spacing: 3px;
+    color: rgb(173, 173, 173);
+}
+.color-degrade{
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    letter-spacing: 10px;
+    padding: 10px;
+    background-image: radial-gradient(circle at 105.9% 50%, #ff91b0 0, #ff88b6 7.14%, #ff7fbc 14.29%, #ff76c2 21.43%, #f96dc7 28.57%, #e964cd 35.71%, #d65cd3 42.86%, #be55d8 50%, #a250dd 57.14%, #804fe3 64.29%, #5050e8 71.43%, #0051ec 78.57%, #0054ef 85.71%, #0056f1 92.86%, #0058f1 100%);
+}
+
+.greeting{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+
+.checkbox{
+    margin-right: 8px;
+    border: 0px;
+}
+.option-sesion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+
+}
